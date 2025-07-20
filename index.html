@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Data Cleaner</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      color: #2e7d32;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .feature-box {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .cta {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .cta a {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #43a047;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI Data Cleaner</h1>
+    <p>Upload, clean, and download datasets in seconds — no coding required.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Why Use AI Data Cleaner?</h2>
+      <p>Whether you're a data scientist, analyst, or student — save hours of manual data prep with this smart app.</p>
+    </section>
+
+    <section class="features">
+      <div class="feature-box">
+        <h3>📂 Upload CSV or Excel</h3>
+        <p>Supports `.csv` and `.xlsx` formats for maximum flexibility.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🧼 Automated Cleaning</h3>
+        <p>Handles missing values, duplicates, empty columns, and more.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📊 Outlier Detection</h3>
+        <p>Uses IQR-based filtering to remove noisy data points.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🔢 Label Encoding</h3>
+        <p>Automatically encodes categorical variables for model readiness.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📈 Normalization</h3>
+        <p>Scales numeric features for downstream analysis or modeling.</p>
+      </div>
+      <div class="feature-box">
+        <h3>⬇️ Download Result</h3>
+        <p>Instantly download a clean, structured dataset in CSV format.</p>
+      </div>
+    </section>
+
+    <div class="cta">
+      <a href="https://data-cleaning-app-online.streamlit.app/">🚀 Launch the App</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 AI Data Cleaner · Built with ❤️ and Streamlit
+  </footer>
+
+</body>
+</html>
